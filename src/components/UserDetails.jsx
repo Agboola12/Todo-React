@@ -12,7 +12,7 @@ const UserDetails = () => {
     }, [id]);
 
     if (!user) {
-        return <p>Loading...</p>;
+        return <p>Loading...</p>
     }
 
     return (
